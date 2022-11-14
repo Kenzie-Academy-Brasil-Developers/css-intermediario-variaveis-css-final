@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap");
 
 * {
   margin: 0;
@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 
-:root{
+:root {
   --color-primary: #1049d8;
   --color-text: #333333;
 
@@ -19,20 +19,20 @@
   --gap-between-elements: 32px;
   --radius-1: 4px;
 
-  --font-family-1: 'inter', sans-serif;
+  --font-family-1: "inter", sans-serif;
 }
 
-h1{
+h1 {
   font-size: var(--font-title-1);
 }
 
-p{
+p {
   font-size: var(--font-text-1);
   line-height: var(--font-text-1-line-height);
   color: var(--color-text);
 }
 
-body{
+body {
   font-family: var(--font-family-1);
 }
 
@@ -68,12 +68,12 @@ body{
   gap: var(--gap-between-elements);
 }
 
-.mainSection-column2-content-buttons{
+.mainSection-column2-content-buttons {
   display: flex;
   gap: calc(var(--gap-between-elements) / 2);
 }
 
-.button-default{
+.button-default {
   height: var(--button-height);
   padding: 0 44px;
   background: var(--color-primary);
@@ -86,7 +86,7 @@ body{
   cursor: pointer;
 }
 
-.button-default.outline{
+.button-default.outline {
   background-color: transparent;
   color: var(--color-primary);
 }
