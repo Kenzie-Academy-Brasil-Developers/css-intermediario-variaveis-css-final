@@ -1,39 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <link rel="stylesheet" href="./src/styles/index.css" />
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Introdução a Variáveis CSS</title>
-  </head>
-  <body>
-    <main class="mainSection">
-      <div class="mainSection-column1">
-        <img
-          src="./src/images/logo.png"
-          alt="Logo da Kenzie Academy - Cor Branca"
-          title="Logo da Kenzie Academy - Cor Branca"
-        />
-      </div>
-      <div class="mainSection-column2">
-        <div class="mainSection-column2-content">
-          <h1>
-            Nós só temos sucesso <br />
-            <span class="color-primary">se tiver tiver sucesso.</span>
-          </h1>
-          <p>
-            Estude 12 meses sem pagar nada. Na nossa formação de programação
-            full stack, você só paga quando ganhar <b>mais de R$ 3 mil.</b>
-          </p>
-          <div class="mainSection-column2-content-buttons">
-            <button class="button-default outline">
-              Quero ser programador
-            </button>
-            <button class="button-default">Sobre Nós</button>
-          </div>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- FONTES -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- FOLHA DE ESTILO -->
+  <link rel="stylesheet" href="./src/index.css" />
+
+  <title>Introdução a Variáveis CSS</title>
+</head>
+
+<body>
+  <main class="main-section">
+    <div class="main-section__left-column">
+      <img
+        src="./src/logo.png"
+        alt="Logo da Kenzie Academy - Cor Branca"
+        title="Logo da Kenzie Academy - Cor Branca"
+      />
+    </div>
+    <div class="main-section__right-column">
+      <div class="main-content">
+        <h1>
+          Nós só temos sucesso <br />
+          <span class="color--primary">se tiver tiver sucesso.</span>
+        </h1>
+        <p>
+          Estude 12 meses sem pagar nada. Na nossa formação de programação
+          full stack, você só paga quando ganhar <b>mais de R$ 3 mil.</b>
+        </p>
+        <div class="main-content__buttons">
+          <button class="main-content__button--default main-content__button--outline">
+            Quero ser programador
+          </button>
+          <button class="main-content__button--default">Sobre Nós</button>
         </div>
       </div>
-    </main>
-  </body>
+    </div>
+  </main>
+</body>
+
 </html>
